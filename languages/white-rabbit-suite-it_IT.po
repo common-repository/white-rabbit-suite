@@ -1,0 +1,627 @@
+# Copyright (C) 2019 White Rabbit Srl, Enterprise Consulting
+# This file is distributed under the same license as the White Rabbit All in One Suite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: White Rabbit All in One Suite 2.3.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/white-rabbit-"
+"suite\n"
+"POT-Creation-Date: 2021-03-16T09:10:14+00:00\n"
+"PO-Revision-Date: 2021-03-16 10:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: white-rabbit-suite\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "White Rabbit All in One Suite"
+msgstr "White Rabbit All in One Suite"
+
+#. Plugin URI of the plugin
+#: whiterabbit.php:332
+msgid "https://www.whiterabbitsuite.com/create-or-connect-a-wordpress-site/"
+msgstr "https://www.whiterabbit.cloud/creare-o-collegare-un-sito-wordpress/"
+
+#. Description of the plugin
+msgid ""
+"White Rabbit software enables you to implement an e-commerce in Wordpress "
+"through just one click."
+msgstr ""
+"Il software White Rabbit ti consente di implementare un e-commerce su "
+"Wordpress con un solo clic."
+
+#. Author of the plugin
+msgid "White Rabbit Srl, Enterprise Consulting"
+msgstr "White Rabbit Srl, Enterprise Consulting"
+
+#. Author URI of the plugin
+msgid "https://www.whiterabbitsuite.com"
+msgstr "https://www.whiterabbit.cloud"
+
+#: class-admin.php:69
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class-admin.php:88
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: class-admin.php:88
+msgid "View Your Suite GDPR"
+msgstr "Visualizza la GDPR della tua Suite"
+
+#: class-admin.php:88
+msgid "Import Data"
+msgstr "Importazione Dati"
+
+#: class-admin.php:88
+msgid "Whiterabbit Codes"
+msgstr "Codici Whiterabbit"
+
+#: class-admin.php:88
+msgid "Whiterabbit Analytics"
+msgstr "Whiterabbit Analytics"
+
+#: class-admin.php:88
+msgid "Post Defaults"
+msgstr "Valori Predefiniti Pubblicazione"
+
+#: class-admin.php:88
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: class-admin.php:115 class-admin.php:125
+msgid "NO IMPORT DATA"
+msgstr "Nessun Dato da Importare"
+
+#: class-admin.php:118
+msgid "Import Run,wait..."
+msgstr "Importazione in corso,attendere..."
+
+#: class-admin.php:118
+msgid ""
+"(This page will be reloaded every 30s. If after 120s. the procedure seems to "
+"be blocked, the number of orders and users to be imported does not decrease, "
+"click Refresh Button.If the number to be imported does not decrease, make a "
+"new connection to the suite and press the Import Data Button again)"
+msgstr ""
+"(Questa pagina verrà ricaricata ogni 30 secondi. Se dopo 120 secondi la "
+"procedura sembra bloccata, il numero di ordini e utenti da importare non "
+"diminuisce, fare clic sul pulsante Aggiorna. Se il numero da importare non "
+"diminuisce, creare una nuova connessione alla suite e premere nuovamente il "
+"pulsante Importa dati)"
+
+#: class-admin.php:119
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: class-admin.php:137
+msgid "Success Connect !"
+msgstr "Connessione Riuscita!"
+
+#: class-admin.php:140
+msgid "Import OK !"
+msgstr "Importazione eseguita!"
+
+#: class-admin.php:147
+msgid "No Connect !"
+msgstr "Nessuna Connessione !"
+
+#: class-admin.php:149
+msgid "NO CONNECT !"
+msgstr "Nessuna Connessione !"
+
+#: class-admin.php:153
+msgid "Sitemap Generated Successfully!"
+msgstr "Sitemap Generata con Successo!"
+
+#: class-admin.php:161
+msgid ""
+"Your WP Cron is disabled. If you want to use WP Cron, open file wp-config."
+"php and delete row define( \"DISABLE_WP_CRON\", true );."
+msgstr ""
+"Il tuo WP Cron è disabilitato. Se vuoi usare il WP Cron, apri il file wp-"
+"config.php e cancella la riga define( \"DISABLE_WP_CRON\", true );."
+
+#: class-admin.php:164
+msgid ""
+" If you want to use CronJob server, access your server and config with "
+"command:"
+msgstr ""
+"Se vuoi usare il server dei CronJob, accedi al tuo server e configuralo col "
+"comando:"
+
+#: class-admin.php:182
+msgid "In White Rabbit Suite (Setting -> GDPR) you have set"
+msgstr "Nella Suite White Rabbit (Impostazione -> GDPR) hai impostato"
+
+#: class-admin.php:196 class-admin.php:745 install/install-posts.php:86
+msgid "No Setting !"
+msgstr "Nessuna Impostazione !"
+
+#: class-admin.php:198
+msgid "\""
+msgstr "\""
+
+#: class-admin.php:216
+msgid ""
+"USE THIS FUNCTION TO IMPORT ALL USERS AND ALL ORDERS PREVIOUS TO INSTALLING "
+"THE PLUGIN"
+msgstr ""
+"UTILIZZARE QUESTA FUNZIONE PER IMPORTARE TUTTI GLI UTENTI E TUTTI GLI ORDINI "
+"PRECEDENTI ALL'INSTALLAZIONE DEL PLUGIN"
+
+#: class-admin.php:224 class-admin.php:229
+msgid "You Can Import Into WhiteRabbit Suite : "
+msgstr "Puoi Importare nella Suite Whiterabbit : "
+
+#: class-admin.php:225
+msgid " Orders"
+msgstr " Ordini"
+
+#: class-admin.php:230
+msgid " Users"
+msgstr " Utenti"
+
+#: class-admin.php:274
+msgid "Whiterabbit id"
+msgstr "ID Whiterabbit"
+
+#: class-admin.php:285
+msgid "Site id"
+msgstr "Sito ID"
+
+#: class-admin.php:296
+msgid "WR Token"
+msgstr "Token WR"
+
+#: class-admin.php:307
+msgid "WP Token"
+msgstr "Token WP"
+
+#: class-admin.php:337
+msgid "Analytics enabled"
+msgstr "Abilita Analytics"
+
+#: class-admin.php:349
+msgid "Analytics debug"
+msgstr "Abilita Analytics Debug"
+
+#: class-admin.php:361
+msgid "Analytics Code"
+msgstr "Codice Analytics"
+
+#: class-admin.php:372
+msgid "Analitycs API"
+msgstr "API Analytics"
+
+#: class-admin.php:383
+msgid "Analitycs Goal Ecommerce ID"
+msgstr "ID Analitycs Goal Ecommerce"
+
+#: class-admin.php:394
+msgid "Analitycs Goal Newsletter ID"
+msgstr "ID Analitycs Goal Newsletter"
+
+#: class-admin.php:424
+msgid "Default Author"
+msgstr "Autore Predefinito"
+
+#: class-admin.php:433
+msgid "Default Category"
+msgstr "Categoria Predefinita"
+
+#: class-admin.php:461
+msgid "White Rabbit SEO"
+msgstr "SEO White Rabbit"
+
+#: class-admin.php:469
+msgid ""
+"It generates the sitemap.xml and the robots.txt on your site's root folder"
+msgstr ""
+"Genera all'interno della cartella principale del sito la sitemap.xml e il "
+"robots.txt"
+
+#: class-admin.php:479
+msgid "Generate Sitemap"
+msgstr "Genera Sitemap"
+
+#: class-admin.php:498
+msgid "Enabled Plugin"
+msgstr "Abilita Plugin"
+
+#: class-admin.php:524
+msgid "Url Api White Rabbit Suite :"
+msgstr "Url API White Rabbit Suite:"
+
+#: class-admin.php:539
+msgid "Token Site Login Suite"
+msgstr "Token di Accesso al Sito della Suite"
+
+#: class-admin.php:553
+msgid "Consumer Key Woocommerce"
+msgstr "Chiave Utente Woocommerce"
+
+#: class-admin.php:565
+msgid "Consumer Secret Woocommerce"
+msgstr "Utente Nascosto Woocommerce"
+
+#: class-admin.php:578
+msgid "Time Interval in days for the Cancellation of Abandoned Carts"
+msgstr ""
+"Intervallo di tempo in giorni per la cancellazione dei Carrelli Abbandonati"
+
+#: class-admin.php:590
+msgid "Enable Ticket Creation from Contact Forms"
+msgstr "Abilita Creazione Ticket dai Moduli di Contatto"
+
+#: class-admin.php:602
+msgid "Enable Suite WhiteRabbit Marketing Consent"
+msgstr "Abilita Consenso Marketing Suite Whiterabbit"
+
+#: class-admin.php:618
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: class-admin.php:640
+msgid "White Rabbit Options"
+msgstr "Opzioni White Rabbit"
+
+#: class-admin.php:762
+msgid ""
+"Your Url Api is probably incorrect or Token Site Login Suite is incorrect"
+msgstr ""
+"L'API dell'URL è probabilmente errata o il Token di Accesso al Sito della "
+"Suite non è corretto"
+
+#: connector/client.php:441
+msgid "Error! "
+msgstr "Errore! "
+
+#: connector/client.php:441 connector/client.php:451
+msgid "Captcha Invalid!"
+msgstr "Captcha non Valido!"
+
+#: connector/client.php:444
+msgid "Success! "
+msgstr "Riuscito! "
+
+#: connector/client.php:444
+msgid "Contact Form Successfully Submitted!"
+msgstr "Modulo di contatto inviato con successo!"
+
+#: connector/connector.php:1783
+msgid "Italy"
+msgstr "Italia"
+
+#: connector/connector.php:1784
+msgid "Address Line 1"
+msgstr "Indirizzo, riga 1"
+
+#: connector/connector.php:1785
+msgid "Address Line 2"
+msgstr "Indirizzo, riga 2"
+
+#: connector/connector.php:1786 whiterabbit.php:615
+msgid "City"
+msgstr "Città"
+
+#: connector/connector.php:1787
+msgid "Code Postal"
+msgstr "CAP"
+
+#: connector/connector.php:1788
+msgid "Country"
+msgstr "Nazione"
+
+#: connector/connector.php:1792
+msgid "Province"
+msgstr "Provincia"
+
+#: install/install-posts.php:126
+msgid "The Whiterabbit Plugin has succesfully installed! Go to "
+msgstr "Il plugin White Rabbit è stato installato con successo! Vai a "
+
+#: install/install-posts.php:126
+msgid "this page"
+msgstr "questa pagina"
+
+#: install/install-posts.php:126
+msgid " for complete registration on Whiterabbit Suite."
+msgstr " per completare la registrazione su Whiterabbit Suite."
+
+#: whiterabbit.php:182
+msgid "Whiterabbit Api"
+msgstr "API Whiterabbit"
+
+#: whiterabbit.php:196
+msgid "Whiterabbit post"
+msgstr "Articoli Whiterabbit"
+
+#: whiterabbit.php:210
+msgid "Whiterabbit blog"
+msgstr "Blog Whiterabbit"
+
+#: whiterabbit.php:277
+msgid "Welcome to White Rabbit WordPress!"
+msgstr "Benvenuto nel Wordpress White Rabbit!"
+
+#: whiterabbit.php:278
+msgid "We've assembled some links to get you started:"
+msgstr "Abbiamo creato alcuni link per farti iniziare:"
+
+#: whiterabbit.php:282
+msgid "Get Started"
+msgstr "Come iniziare"
+
+#: whiterabbit.php:284
+msgid "Add New Theme"
+msgstr "Aggiungi un nuovo tema"
+
+#: whiterabbit.php:287
+msgid "View your site"
+msgstr "Visualizza il tuo sito"
+
+#: whiterabbit.php:292
+msgid "Next Steps"
+msgstr "Passi successivi"
+
+#: whiterabbit.php:295 whiterabbit.php:298
+msgid "Edit your front page"
+msgstr "Modificare la pagina iniziale"
+
+#: whiterabbit.php:296 whiterabbit.php:299
+msgid "Add additional pages"
+msgstr "Aggiungere altre pagine"
+
+#: whiterabbit.php:300
+msgid "Add a blog post"
+msgstr "Aggiungere un blog per gli articoli"
+
+#: whiterabbit.php:302
+msgid "Add an About page"
+msgstr "Aggiungere una pagina di informazione"
+
+#: whiterabbit.php:303
+msgid "Write your first blog post"
+msgstr "Scrivere il tuo primo articolo del blog"
+
+#: whiterabbit.php:306
+msgid "Manage menus"
+msgstr "Gestione menu"
+
+#: whiterabbit.php:311
+msgid "More Actions"
+msgstr "Ulteriori Azioni"
+
+#: whiterabbit.php:315 whiterabbit.php:320
+msgid "Customize Your Site"
+msgstr "Personalizza il tuo sito"
+
+#: whiterabbit.php:327
+msgid "Manage widgets"
+msgstr "Gestione widgets"
+
+#: whiterabbit.php:332
+msgid "Back to Suite"
+msgstr "Torna alla Suite"
+
+#: whiterabbit.php:355
+msgid "White Rabbit Cookie Notice"
+msgstr "White Rabbit Cookie Notice"
+
+#: whiterabbit.php:356
+msgid "White Rabbit Site Map"
+msgstr "White Rabbit Site Map"
+
+#: whiterabbit.php:377
+msgid "Plugin Activated"
+msgstr "Plugin Attivato"
+
+#: whiterabbit.php:378
+msgid "Configure it"
+msgstr "Configuralo"
+
+#: whiterabbit.php:381
+msgid "Dismiss this notice."
+msgstr "Rimuovi questa notifica."
+
+#: whiterabbit.php:386
+msgid "Activated, configure it"
+msgstr "Attivato, configuralo"
+
+#: whiterabbit.php:387
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: whiterabbit.php:398
+msgid "Not activated"
+msgstr "Non attivato"
+
+#: whiterabbit.php:399
+msgid "Activate now"
+msgstr "Attivalo ora"
+
+#: whiterabbit.php:413
+msgid "Your "
+msgstr "La tua "
+
+#: whiterabbit.php:415
+msgid "sitemap"
+msgstr "sitemap"
+
+#: whiterabbit.php:419
+msgid "White Rabbit's sitemap does not exist."
+msgstr "La sitemap di White Rabbit non esiste."
+
+#: whiterabbit.php:426 whiterabbit.php:433
+msgid "Whiterabbit"
+msgstr "Whiterabbit"
+
+#: whiterabbit.php:433
+msgid "Fields Mapping"
+msgstr "Mappatura dei Campi"
+
+#: whiterabbit.php:439
+msgid "First Name"
+msgstr "Nome"
+
+#: whiterabbit.php:442 whiterabbit.php:453 whiterabbit.php:464
+#: whiterabbit.php:475 whiterabbit.php:486 whiterabbit.php:497
+#: whiterabbit.php:508 whiterabbit.php:519 whiterabbit.php:530
+#: whiterabbit.php:541 whiterabbit.php:552 whiterabbit.php:563
+#: whiterabbit.php:574 whiterabbit.php:585 whiterabbit.php:596
+#: whiterabbit.php:607 whiterabbit.php:618 whiterabbit.php:629
+#: whiterabbit.php:640 whiterabbit.php:651 whiterabbit.php:662
+#: whiterabbit.php:673 whiterabbit.php:684 whiterabbit.php:697
+#: whiterabbit.php:708 whiterabbit.php:719 whiterabbit.php:730
+#: whiterabbit.php:741 whiterabbit.php:752 whiterabbit.php:763
+#: whiterabbit.php:774 whiterabbit.php:787 whiterabbit.php:798
+#: whiterabbit.php:809 whiterabbit.php:820 whiterabbit.php:831
+#: whiterabbit.php:842
+msgid "-- Select Field --"
+msgstr "-- Seleziona campo --"
+
+#: whiterabbit.php:450
+msgid "Last Name"
+msgstr "Cognome"
+
+#: whiterabbit.php:461
+msgid "Email Address"
+msgstr "Indirizzo Email"
+
+#: whiterabbit.php:472
+msgid "Message Text"
+msgstr "Corpo Messaggio"
+
+#: whiterabbit.php:483
+msgid "Telephone 1"
+msgstr "Telefono 1"
+
+#: whiterabbit.php:494
+msgid "Telephone 2"
+msgstr "Telefono 2"
+
+#: whiterabbit.php:505
+msgid "Mobilephone 1"
+msgstr "Cellulare 1"
+
+#: whiterabbit.php:516
+msgid "Mobilephone 2"
+msgstr "Cellulare 2"
+
+#: whiterabbit.php:527
+msgid "Company Name"
+msgstr "Nome Azienda"
+
+#: whiterabbit.php:538
+msgid "Secondary Email"
+msgstr "Email Secondaria"
+
+#: whiterabbit.php:549
+msgid "Birthday Date"
+msgstr "Data di Nascita"
+
+#: whiterabbit.php:560
+msgid "Birthplace"
+msgstr "Luogo di Nascita"
+
+#: whiterabbit.php:571
+msgid "Gender"
+msgstr "Sesso"
+
+#: whiterabbit.php:582
+msgid "Fiscal Code"
+msgstr "Codice Fiscale"
+
+#: whiterabbit.php:593
+msgid "Vat Code"
+msgstr "Partita IVA"
+
+#: whiterabbit.php:604
+msgid "Address"
+msgstr "Indirizzo"
+
+#: whiterabbit.php:626
+msgid "Province/State"
+msgstr "Provincia/Stato"
+
+#: whiterabbit.php:637
+msgid "Nation/Country"
+msgstr "Nazione/Paese"
+
+#: whiterabbit.php:648
+msgid "Postal Code"
+msgstr "CAP"
+
+#: whiterabbit.php:659
+msgid "Zone"
+msgstr "Presso"
+
+#: whiterabbit.php:670
+msgid "Tag"
+msgstr "Tag"
+
+#: whiterabbit.php:681
+msgid "Note"
+msgstr "Note"
+
+#: whiterabbit.php:694
+msgid "GDPR Marketing"
+msgstr "GDPR Marketing"
+
+#: whiterabbit.php:705
+msgid "GDPR Profiling"
+msgstr "GDPR Profiling"
+
+#: whiterabbit.php:716
+msgid "GDPR Thirdparties"
+msgstr "GDPR Thirdparties"
+
+#: whiterabbit.php:727
+msgid "GDPR Outside EU"
+msgstr "GDPR Outside EU"
+
+#: whiterabbit.php:738
+msgid "GDPR Collection"
+msgstr "GDPR Collection"
+
+#: whiterabbit.php:749
+msgid "GDPR Other 1"
+msgstr "GDPR Other 1"
+
+#: whiterabbit.php:760
+msgid "GDPR Other 2"
+msgstr "GDPR Other 2"
+
+#: whiterabbit.php:771
+msgid "GDPR Other 3"
+msgstr "GDPR Other 3"
+
+#: whiterabbit.php:784
+msgid "Website URL"
+msgstr "URL Sito Web"
+
+#: whiterabbit.php:795
+msgid "Linkedin URL Profile"
+msgstr "URL Profilo Linkedin"
+
+#: whiterabbit.php:806
+msgid "Twitter URL Profile"
+msgstr "URL Profilo Twitter"
+
+#: whiterabbit.php:817
+msgid "Facebook URL Profile"
+msgstr "URL Profilo Facebook"
+
+#: whiterabbit.php:828
+msgid "Instagram URL Profile"
+msgstr "URL Profilo Instagram"
+
+#: whiterabbit.php:839
+msgid "Skype URL Profile"
+msgstr "URL Profilo Skype"

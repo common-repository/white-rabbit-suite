@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'white rabbit';
+    src: url('../fonts/white-rabbit.eot');
+    src: url('../fonts/white-rabbit.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/white-rabbit.woff') format('woff'),
+         url('../fonts/white-rabbit.ttf') format('truetype'),
+         url('../fonts/white-rabbit.svg#white-rabbit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.toplevel_page_wr-mainmenu .dashicons-white-rabbit:before{
+	display: inline-block;
+   font-family: 'white rabbit';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.dashicons-white-rabbit:before{content:'\0041';}
